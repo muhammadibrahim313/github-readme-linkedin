@@ -1,62 +1,49 @@
 {
+  "version": 2,
   "builds": [
     {
-      "src": "./src/images-renderer/routes/index.ts",
-      "use": "@vercel/node"
+      "src": "src/images-renderer/routes/index.ts",
+      "use": "@vercel/node",
+      "config": { "nodeVersion": "22.x" }
     },
     {
-      "src": "./src/scraper-server/index.ts",
-      "use": "@vercel/node"
+      "src": "src/scraper-server/index.ts",
+      "use": "@vercel/node",
+      "config": { "nodeVersion": "22.x" }
     },
     {
-      "src": "./src/images-renderer/routes/education.ts",
-      "use": "@vercel/node"
+      "src": "src/images-renderer/routes/education.ts",
+      "use": "@vercel/node",
+      "config": { "nodeVersion": "22.x" }
     },
     {
-      "src": "./src/images-renderer/routes/experience.ts",
-      "use": "@vercel/node"
+      "src": "src/images-renderer/routes/experience.ts",
+      "use": "@vercel/node",
+      "config": { "nodeVersion": "22.x" }
     },
     {
-      "src": "./src/images-renderer/routes/languages.ts",
-      "use": "@vercel/node"
+      "src": "src/images-renderer/routes/languages.ts",
+      "use": "@vercel/node",
+      "config": { "nodeVersion": "22.x" }
     },
     {
-      "src": "./src/images-renderer/routes/skills.ts",
-      "use": "@vercel/node"
+      "src": "src/images-renderer/routes/skills.ts",
+      "use": "@vercel/node",
+      "config": { "nodeVersion": "22.x" }
     },
     {
-      "src": "./src/images-renderer/routes/user.ts",
-      "use": "@vercel/node"
+      "src": "src/images-renderer/routes/user.ts",
+      "use": "@vercel/node",
+      "config": { "nodeVersion": "22.x" }
     }
   ],
   "routes": [
-    {
-      "src": "/",
-      "dest": "/src/images-renderer/routes/index.ts"
-    },
-    {
-      "src": "/data",
-      "dest": "/src/scraper-server/index.ts"
-    },
-    {
-      "src": "/education",
-      "dest": "/src/images-renderer/routes/education.ts"
-    },
-    {
-      "src": "/experience",
-      "dest": "/src/images-renderer/routes/experience.ts"
-    },
-    {
-      "src": "/languages",
-      "dest": "/src/images-renderer/routes/languages.ts"
-    },
-    {
-      "src": "/skills",
-      "dest": "/src/images-renderer/routes/skills.ts"
-    },
-    {
-      "src": "/user",
-      "dest": "/src/images-renderer/routes/user.ts"
-    }
+    { "src": "/",         "dest": "src/images-renderer/routes/index.ts" },
+    { "src": "/data",     "dest": "src/scraper-server/index.ts" },
+    { "src": "/education","dest": "src/images-renderer/routes/education.ts" },
+    { "src": "/experience","dest": "src/images-renderer/routes/experience.ts" },
+    { "src": "/languages","dest": "src/images-renderer/routes/languages.ts" },
+    { "src": "/skills",   "dest": "src/images-renderer/routes/skills.ts" },
+    { "src": "/user",     "dest": "src/images-renderer/routes/user.ts" }
   ]
 }
