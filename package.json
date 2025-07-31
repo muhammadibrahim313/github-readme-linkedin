@@ -40,7 +40,7 @@
     "webpage": "^0.3.0"
   },
   "scripts": {
-    "dev": "node_modules/.bin/nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/images-renderer/index.ts",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/images-renderer/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
