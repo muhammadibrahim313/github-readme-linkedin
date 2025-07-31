@@ -1,5 +1,3 @@
-
-````markdown
 <br><br><br>
 
 <div align="center">
@@ -17,33 +15,8 @@ If you want to use this project on your GitHub profile, fork it and deploy it to
 <br>
 
 ## Example
-```md
+
 <img src="https://github-readme-linkedin-lrdc-cnbkc4fwm.vercel.app/user?username=ibrahimqasmi313" />
-````
-
-<br>
-
-## Methods
-
-| URL           | Example                                                                                        | Description                             |
-| ------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------- |
-| `/experience` | `https://github-readme-linkedin-lrdc-cnbkc4fwm.vercel.app/experience?username=ibrahimqasmi313` | Your LinkedIn experience section.       |
-| `/education`  | `https://github-readme-linkedin-lrdc-cnbkc4fwm.vercel.app/education?username=ibrahimqasmi313`  | Your LinkedIn education section.        |
-| `/skills`     | `https://github-readme-linkedin-lrdc-cnbkc4fwm.vercel.app/skills?username=ibrahimqasmi313`     | Your LinkedIn skills section.           |
-| `/languages`  | `https://github-readme-linkedin-lrdc-cnbkc4fwm.vercel.app/languages?username=ibrahimqasmi313`  | Your LinkedIn languages section.        |
-| `/user`       | `https://github-readme-linkedin-lrdc-cnbkc4fwm.vercel.app/user?username=ibrahimqasmi313`       | Your full name, headline, and location. |
-
-<br>
-
-## Parameters
-
-| Name       | Example                              | Description                     | Required |
-| ---------- | ------------------------------------ | ------------------------------- | -------- |
-| `username` | `?username=ibrahimqasmi313`          | Your LinkedIn username.         | YES      |
-| `limit`    | `?username=ibrahimqasmi313&limit=10` | Number of list items to return. | NO       |
-
-```
-```
 
 
 
