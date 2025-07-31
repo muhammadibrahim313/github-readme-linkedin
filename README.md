@@ -1,49 +1,56 @@
-<br>
-<br>
-<br>
+
+````markdown
+<br><br><br>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/soroushchehresa/github-readme-linkedin/master/linkedin-github.png" width="150" />
+  <img src="https://raw.githubusercontent.com/soroushchehresa/github-readme-linkedin/master/linkedin-github.png" width="150" />
 
-# GitHub Readme LinkedIn
-A serverless application to get dynamically generated images from your LinkedIn profile on your GitHub READMEs!
-
+  # GitHub Readme LinkedIn
+  A serverless application to get dynamically generated images from your LinkedIn profile on your GitHub READMEs!
 </div>
 
-<br>
-<br>
+<br><br>
 
 ## Usage
-If you want to use this project on your GitHub profile, I recommend you [fork and deploy it to your own Vercel instance](https://github.com/soroushchehresa/github-readme-linkedin/#deploy-your-own) and use this project from your own URLs.
+If you want to use this project on your GitHub profile, fork it and deploy it to your own Vercel instance, then use your instance URLs.
 
 <br>
 
 ## Example
-```MD
-<img src="[YOUR_VERCEL_PROJECT_DOMAIN]/[METHOD]?username=[YOUR_LINKEDIN_USERNAME]" />
-```
+```md
+<img src="https://github-readme-linkedin-lrdc-cnbkc4fwm.vercel.app/user?username=ibrahimqasmi313" />
+````
 
 <br>
 
 ## Methods
 
-|    URL    |                   Example                   |        Description         |
-| ---------- | ------------------------------------------- | -------------------------- |
-| `/experience` | `[YOUR_DOMAIN]/experience?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn experience section. |
-| `/education` | `[YOUR_DOMAIN]/education?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn education section. |
-| `/skills` | `[YOUR_DOMAIN]/skills?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn skills section. |
-| `/languages` | `[YOUR_DOMAIN]/languages?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn languages section. |
-| `/user` | `[YOUR_DOMAIN]/user?username=[YOUR_LINKEDIN_USERNAME]` | Your Fullname, Headline and Location. |
+| URL           | Example                                                                                        | Description                             |
+| ------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------- |
+| `/experience` | `https://github-readme-linkedin-lrdc-cnbkc4fwm.vercel.app/experience?username=ibrahimqasmi313` | Your LinkedIn experience section.       |
+| `/education`  | `https://github-readme-linkedin-lrdc-cnbkc4fwm.vercel.app/education?username=ibrahimqasmi313`  | Your LinkedIn education section.        |
+| `/skills`     | `https://github-readme-linkedin-lrdc-cnbkc4fwm.vercel.app/skills?username=ibrahimqasmi313`     | Your LinkedIn skills section.           |
+| `/languages`  | `https://github-readme-linkedin-lrdc-cnbkc4fwm.vercel.app/languages?username=ibrahimqasmi313`  | Your LinkedIn languages section.        |
+| `/user`       | `https://github-readme-linkedin-lrdc-cnbkc4fwm.vercel.app/user?username=ibrahimqasmi313`       | Your full name, headline, and location. |
 
 <br>
 
 ## Parameters
-|    Name    |                   Example                   |        Description         |  Required |
-| ---------- | ------------------------------------------- | -------------------------- | --------- |
-| username   | ?username=[YOUR_LINKEDIN_USERNAME]          | Your LinkedIn username.    | YES       |
-| limit      | ?username=[YOUR_LINKEDIN_USERNAME]&limit=10 | Count of the lists items.  | NO        |
 
-<br>
+| Name       | Example                              | Description                     | Required |
+| ---------- | ------------------------------------ | ------------------------------- | -------- |
+| `username` | `?username=ibrahimqasmi313`          | Your LinkedIn username.         | YES      |
+| `limit`    | `?username=ibrahimqasmi313&limit=10` | Number of list items to return. | NO       |
+
+```
+```
+
+
+
+
+
+
+==========================================================================================
 
 ## Deploy your own
 You can deploy and use this project without any errors on your own [Vercel](https://vercel.com) instance by the following steps:
